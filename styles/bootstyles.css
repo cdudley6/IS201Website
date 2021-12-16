@@ -1,0 +1,70 @@
+:root {
+    --dark-blue: #004498;
+    --panthers-blue: #039CDC;
+    --royal-blue: #0063AF;
+    --carolina-blue: #A5D1E7;
+    --text-color: #333;
+    --whites: whitesmoke;
+}
+
+
+
+.tableau {
+  color: var(--royal-blue);
+  font-family: 'Nunito Sans', sans-serif;
+  line-height: 1.5;
+  background-color: var(--carolina-blue);
+
+}
+main {
+  max-width: 50rem;
+  margin: 0 auto;
+
+}
+
+
+a {
+  text-decoration: none;
+}
+h1,h2,h3,h4 {
+  color:var(--dark-blue);
+  font-family: 'Epilogue', sans-serif;
+  text-align: center;
+  margin-left: 12%;
+  margin-right: 12%;
+
+}
+
+
+.navigation ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    margin: 0;
+    padding: 2rem;
+    overflow: hidden;
+    gap: 80px;
+    text-decoration: none;
+    justify-content: center;
+    
+  }
+
+
+
+  .tableauPlaceholder {
+      
+      align-items: center;
+      margin-left: 2rem;
+      margin-right: 2rem;
+      gap: 2;
+      max-width: 50rem; 
+      margin: 0 auto;
+  }
+
+
+  .footer {
+    font-family: 'Nunito Sans', sans-serif;
+    text-align: center;
+    max-width: 50rem; 
+    margin: 0 auto;
+  }
